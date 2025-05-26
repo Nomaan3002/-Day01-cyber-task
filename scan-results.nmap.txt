@@ -1,0 +1,52 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-05-26 18:03 +0530
+Nmap scan report for Unit (192.168.1.1)
+Host is up (0.021s latency).
+Not shown: 986 filtered tcp ports (no-response), 2 filtered tcp ports (port-unreach)
+PORT      STATE  SERVICE
+22/tcp    closed ssh
+443/tcp   open   https
+445/tcp   closed microsoft-ds
+631/tcp   closed ipp
+8099/tcp  closed unknown
+49153/tcp closed unknown
+49155/tcp closed unknown
+49157/tcp closed unknown
+49159/tcp closed unknown
+49160/tcp closed unknown
+49161/tcp closed unknown
+49163/tcp closed unknown
+MAC Address: 24:DE:8A:2A:45:E1 (Nokia Solutions and Networks GmbH & KG)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.086s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+5357/tcp open  wsdapi
+MAC Address: CC:6B:1E:59:92:25 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.030s latency).
+All 1000 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AE:48:07:F6:59:1E (Unknown)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0078s latency).
+All 1000 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 22:74:72:F0:8C:9D (Unknown)
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0017s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1521/tcp open  oracle
+3306/tcp open  mysql
+8000/tcp open  http-alt
+8089/tcp open  unknown
+
+Nmap done: 256 IP addresses (5 hosts up) scanned in 155.50 seconds
